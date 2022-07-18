@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="js/utils.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/button.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="blinker"></div>
+
+    <div class="canvas-continer">
+        <canvas height="750px" width="750px" id="canvas"></canvas>
+        <input id="file_picker" class="custom-file-input" type="file" > 
+
+        <span class="convert-buttons">
+            <button id="convert"> Convert Image To Grayscale </button>
+            <button id="convertButtonWorker"> Convert Image To Grayscale on worker </button>
+        </span>
+    </div>
+    
+</body>
+
+</html>
